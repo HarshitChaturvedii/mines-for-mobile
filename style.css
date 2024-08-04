@@ -43,6 +43,7 @@ body{
 .blocks div:hover{
      background-color: rgb(66, 77, 172);
      background-repeat: no-repeat;
+     cursor: pointer;
      
 }   
 
@@ -56,6 +57,23 @@ body{
     font-family: "Oswald", sans-serif;
 }
 
+button{
+    width: 130px;
+    height: 50px;
+    position: relative;
+    bottom: 10px;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(12, 222, 152);
+    background-color: darkviolet;
+    border: 0px ;
+    border-radius: 20px ;
+}
+
+button:hover{
+    background-color: rgba(148, 0, 211, 0.299);
+    cursor: pointer;
+}
 @media (max-width : 500px) {
     .blocks{
         width: 300px;
